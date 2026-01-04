@@ -11,6 +11,7 @@ paperurl: 'https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/advs.202512
 bibtexurl: ''
 citation: 'Yu, C., Liu, C., Wang, E. & Wang, J. Quantifying the Single‐Cell Morphological Landscape of Cellular Transdifferentiation through Force Field Reconstruction. Advanced Science e12325 (2025) doi:10.1002/advs.202512325.'
 ---
+
 ## Motivation
 
 * A general framework for reconstructing force field from single-cell data that lack velocity information
