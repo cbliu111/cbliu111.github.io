@@ -9,6 +9,7 @@ venue: 'J. Chem. Theory Comput.'
 slidesurl: ''
 paperurl: '[https://academicpages.github.io/files/paper3.pdf](https://pubs.acs.org/doi/abs/10.1021/acs.jctc.3c00470)'
 citation: 'Liu, C. & Wang, J. Error-Controlled Coarse-Graining Dynamics with Mean-Field Randomization. J. Chem. Theory Comput. 19, 7505–7517 (2023).'
+math: true
 ---
 
 ## Motivations
