@@ -1,56 +1,148 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+<p>I&rsquo;m a reseacher at <a href="http://english.ciac.cas.cn/">Chinese Academy of Sciences</a>, working on the physical principles of deep learning and application of machine learning to understand complex systems, such as the gene regulation network, and dynamics of brain.<br>
+I finished my PhD at the <a href="https://english.ucas.ac.cn/">University of Chinese Academy of Sciences</a>, under the supervision of Prof. <a href="https://www.stonybrook.edu/commcms/chemistry/faculty/_faculty-profiles/wang-jin">Jin Wang</a> and Prof. <a href="http://english.ciac.cas.cn/sourcedb/yw/ymrck/yjy/202408/t20240806_681864.html">Erkang Wang</a>.
+In particular, my PhD research focuses on understanding the physical principle that governing the self-organized folding and interaction of intrinsic disordered proteins.
+I switch my focus then to the broad application of theory of disordered systems to other complex systems, such as brains and the deep neural networks.<br>
+<p><strong>My research interests including: </strong> Physical theories of deep learning, Stochastic dynamics of complex systems, Inferencing dynamical laws from data, Brain-inspired learning.</p>
+My long-term research objective is uncovering the underlying principle that shared by both deep neural networks and brains; with a unified theory to explain the emergent intelligence, we can design energy efficient, interpretable, and self-consistent autonomous intelligent agent that can explore, accumulate, and organize knowledge continually in real world.</p>
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
-
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
-
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
-
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<h2 id="contact">Contacts</h2>
+<ul>
+<li><strong>Email</strong>: chuanboliu.1 [AT] gmail [DOT] com</li>
+<li><strong>WeChat/微信</strong>: C-B-LIU</li>
+</ul>
+<h2 id="selected publication">Selected Publications</h2>
+<ul>
+<li>
+<p><strong>Quantifying the Single‐Cell Morphological Landscape of Cellular Transdifferentiation through Force Field Reconstruction</strong><br>
+Chudan Yu, <strong>Chuanbo Liu</strong>, Erkang Wang, Jin Wang<br>
+Advanced Science, e12325, 2025.
+<a href="https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/advs.202512325">[paper]</a>
+<a href="https://github.com/cbliu111/sparse-ffr">[code]</a></p>
+</li>
+<li>
+<p><strong>Self-organized learning emerges from coherent coupling of critical neurons</strong><br>
+<strong>Chuanbo Liu</strong>, Jin Wang<br>
+arXiv preprint, 2025.
+<a href="https://arxiv.org/abs/2509.00107">[paper]</a></p>
+</li>
+<li>
+<p><strong>Distilling dynamical knowledge from stochastic reaction networks</strong><br>
+<strong>Chuanbo Liu</strong>, Jin Wang<br>
+Proceedings of the National Academy of Sciences 121 (14), e2317422121, 2024.
+<a href="https://www.pnas.org/doi/abs/10.1073/pnas.2317422121">[paper]</a>
+<a href="https://github.com/cbliu111/met">[code]</a></p>
+</li>
+<li>
+<p><strong>Assumption-free analysis for amplification-based quantitative nucleic acid detection</strong><br>
+Yu Fu, Lu Lin, <strong>Chuanbo Liu</strong>, Jin Wang<br>
+The Journal of Chemical Physics 160 (10), 2024.
+<a href="https://pubs.aip.org/aip/jcp/article-abstract/160/10/104111/3271366/Assumption-free-analysis-for-amplification-based?redirectedFrom=fulltext">[paper]</a>
+<a href="https://github.com/cbliu111/AF-QPCR">[code]</a></p>
+</li>
+<li>
+<p><strong>Error-Controlled Coarse-Graining Dynamics with Mean-Field Randomization</strong><br>
+<strong>Chuanbo Liu</strong>, Jin Wang<br>
+Journal of Chemical Theory and Computation 19 (21), 7505-7517, 2023.
+<a href="https://pubs.acs.org/doi/abs/10.1021/acs.jctc.3c00470">[paper]</a>
+<a href="https://github.com/cbliu111/stoch_mean_field">[code]</a></p>
+</li>
+<li>
+<p><strong>Towards a dissipative quantum classifier</strong><br>
+He Wang, <strong>Chuanbo Liu</strong>, Jin Wang<br>
+arXiv preprint, 2023.
+<a href="https://arxiv.org/abs/2310.10254">[paper]</a></p>
+</li>
+<li>
+<p><strong>Parallel implementations of random time algorithm for chemical network stochastic simulations</strong><br>
+<strong>Chuanbo Liu</strong>, Jin Wang<br>
+arXiv preprint, 2021.
+<a href="https://arxiv.org/pdf/2103.00405">[paper]</a></p>
+</li>
+</ul>
+<h2 id="publication">Publications</h2>
+<ul>
+<li>
+<p><strong>Discovery of small molecule NSC290956 as a therapeutic agent for KRas mutant non-small-cell lung cancer</strong><br>
+Jiaxin Zhang, Zuojia Liu, Wenjing Zhao, Xunzhe Yin, Xiliang Zheng, <strong>Chuanbo Liu</strong>, Jin Wang, Erkang Wang<br>
+Frontiers in Pharmacology 12, 797821, 2022.
+<a href="https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2021.797821/full">[paper]</a></p>
+</li>
+<li>
+<p><strong>Subinhibitory concentrations of Honokiol reduce α-Hemolysin (Hla) secretion by Staphylococcus aureus and the Hla-induced inflammatory response by inactivating the NLRP3 inflammasome</strong><br>
+Na Guo, Zuojia Liu, Zhiqiang Yan, Zonghui Liu, Kun Hao, <strong>Chuanbo Liu</strong>, Jin Wang<br>
+Emerging microbes & infections 8 (1), 707-716, 2019.
+<a href="https://www.tandfonline.com/doi/full/10.1080/22221751.2019.1617643">[paper]</a></p>
+</li>
+<li>
+<p><strong>Lighting Up the Thioflavin T by Parallel-Stranded TG(GA)n DNA Homoduplexes</strong><br>
+Jinbo Zhu, Zhiqiang Yan, Weijun Zhou, <strong>Chuanbo Liu</strong>, Jin Wang, Erkang Wang<br>
+ACS sensors 3 (6), 1118-1125, 2018.
+<a href="https://pubs.acs.org/doi/abs/10.1021/acssensors.8b00141">[paper]</a></p>
+</li>
+<li>
+<p><strong>Solvent effect on FRET spectroscopic ruler</strong><br>
+Songyuan Qu, <strong>Chuanbo Liu</strong>, Qiong Liu, Wei Wu, Baoji Du, Jin Wang<br>
+The Journal of Chemical Physics 148 (12), 2018.
+<a href="https://pubs.aip.org/aip/jcp/article/148/12/123331/1024072">[paper]</a></p>
+</li>
+<li>
+<p><strong>Electrostatic forces govern the binding mechanism of intrinsically disordered histone chaperones</strong><br>
+<strong>Chuanbo Liu</strong>, Tianshu Wang, Yawen Bai, Jin Wang<br>
+PLoS One 12 (5), e0178405, 2017.
+<a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0178405">[paper]</a></p>
+</li>
+<li>
+<p><strong>Uncovering the molecular and physiological processes of anticancer leads binding human serum albumin: A physical insight into drug efficacy</strong><br>
+<strong>Chuanbo Liu</strong>, Tianshu Wang, Yawen Bai, Jin Wang<br>
+PLoS One 12 (4), e0176208, 2017.
+<a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0176208">[paper]</a></p>
+</li>
+<li>
+<p><strong>Effects of flexibility and electrostatic interactions on the coupled binding–folding mechanisms of Chz.core and H2A.z–H2B</strong><br>
+Xu Shang, Wenting Chu, Xiakun Chu, <strong>Chuanbo Liu</strong>, Liufang Xu, Jin Wang<br>
+Molecular BioSystems 13 (10), 2152-2159, 2017.
+<a href="https://pubs.rsc.org/en/content/articlelanding/2017/mb/c7mb00103g/unauth">[paper]</a></p>
+</li>
+</ul>
+<h2 id="grants">Grants</h2>
+<ul>
+<li>
+<p><strong>2021.1-2023.12</strong>, the National Natural Science Foundations of China (grant number 32000888)</p> 
+</li>
+<li>
+<p><strong>2023.1-2025.12</strong>, Jilin Province Science and Technology Development Plan (grant number 20230101152JC)</p> 
+</li>
+<li>
+<p><strong>2022.1-2025.12</strong>, the National Natural Science Foundations of China (grant number 32171245)</p> 
+</li>
+</ul>
+<h2 id="leading projects">Leading projects</h2>
+<ul>
+<li>
+<p><strong>2021.1-2023.12</strong>, "Single-molecular dynamic study of light modulated genetic circuits"</p>
+</li>
+<li>
+<p><strong>2023.1-2025.12</strong>, "Development of a CRISPR-Based Multichannel Rapid Nucleic Acid Molecular Detection Chip"</p>
+</li>
+<li>
+<p><strong>2022.1-2025.12</strong>, "Exploring the molecular mechanisms of persister cell formation and resuscitation at the single-cell and single-molecule level"</p>
+</li>
+</ul>
+<h2 id="Collaborate projects">Collaborate projects</h2>
+<ul>
+<li>
+<p><strong>2023.1-2027.12</strong>, National Natural Science Foundation of China, Key Project, grant number 12234019, "Chromosome/Genome Structural Dynamics in Cell Fate Decision-Making", funding: RMB 2.90 million. </p>
+</li>
+<li>
+<p><strong>2019.1-2020.12</strong>, Chinese Academy of Sciences Scientific Instrument and Equipment R&D Project, grant number YJKYYQ20180038, "Single-molecule testing system for the rate of biochemical reactions in vivo in cells", funding: RMB 2.89 million</p>
+</li>
+</ul>
