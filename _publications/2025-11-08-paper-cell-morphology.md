@@ -2,7 +2,7 @@
 title: "Quantifying the Single-Cell Morphological Landscape of Cellular Transdifferentiation through Force Field Reconstruction"
 collection: publications
 category: Journal article
-permalink: /files/2025-11-08-paper-cell-morphology
+permalink: /publications/2025-11-08-paper-cell-morphology
 excerpt: "Inference force field from single-cell datasets without velocity information."
 date: 2025-11-08
 venue: "Advanced Science"
