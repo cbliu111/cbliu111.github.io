@@ -1,6 +1,6 @@
 ---
 title: "From Gene Graphs to Machine Consciousness: Incorporating Causality and Introspection into AI"
-date: 2022-10-11
+date: 2025-02-12
 categories:
   - blog
 tags:
