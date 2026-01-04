@@ -1,7 +1,7 @@
 ---
 title: "Error-Controlled Coarse-Graining Dynamics with Mean-Field Randomization"
 collection: publications
-category: published
+category: Journal article
 permalink: /publication/2023-10-31-paper-coarse-graining-sampling
 excerpt: 'Stochastic simulation with error-controlled coarse-graining sampling.'
 date: 2023-10-31
