@@ -1,8 +1,14 @@
+---
+title: "The Synaptic Gap: Measuring the Distance Between LLMs and the Human Brain"
+date: 2026-01-06
+categories:
+  - blog
+tags:
+  - theory
+  - brain
+math: true
+---
 
-
-
-
-# The Synaptic Gap: Measuring the Distance Between LLMs and the Human Brain
 
 The rapid scaling of Large Language Models (LLMs) has led to a persistent question in both AI circles and neuroscience: **How close are we to matching the raw computational power of the human brain?**
 
